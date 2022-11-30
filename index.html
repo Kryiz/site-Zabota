@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pravocard.ru/">
+    <meta property="og:title" content="Правокард">
+    <meta property="og:description" content="Забота">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правокард - "Забота"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="w-100 d-flex justify-content-between align-items-center flex-wrap py-2 navbar navbar-expand-xl">
+                <a href="/" class="logo mt-0 me-3 me-md-4">
+                    <img src="img/logotype.svg" alt="Логотип">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#burger"
+                    aria-controls="burger" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="burger">
+                    <ul class="nav navbar-nav mb-2 justify-content-center align-items-center mb-md-0">
+                        <li><a href="#" class="nav-link px-3 header__link">Главная</a></li>
+                        <li><a href="#" class="nav-link px-3 header__link">Программа</a></li>
+                        <li><a href="#" class="nav-link px-3 header__link">Шаги</a></li>
+                        <li><a href="#" class="nav-link px-3 header__link">Профилактика</a></li>
+                        <li><a href="#" class="nav-link px-3 header__link">Записаться</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center navbar-nav">
+                        <a href="tel:+70000000000" class="btn px-3 header__link" type="button">+7 (000) 000 00 00</a>
+                        <button class="btn__orange header__btn text-decoration-none" type="button">Заказать
+                            звонок</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__main row align-items-end align-items-xxl-center pt-3 pt-md-5">
+                    <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                        <h1 class="hero__title mb-4"><span class="text__orange">«Забота»:</span> программа корпоративной
+                            поддержки</h1>
+                        <p class="hero__subtitle mb-5">Предоставляем консультативную помощь сотрудникам,<br> которая
+                            увеличит продуктивность работы коллектива и усилит<br> бренд компании</p>
+                        <div class="d-grid gap-4 d-md-flex pb-3 pb-xxl-0">
+
+                            <div class="form-floating">
+                                <input type="text" id="hero__tel" placeholder="Ваш номер телефона" class="form-control hero__tel">
+                                <label for="hero__tel" class="text-center">Ваш номер телефона</label>
+                            </div>
+                            <button class="btn__orange hero__btn" type="button">Позвоните мне</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="img/hero-bg.png" class="d-block mx-lg-auto img-fluid mx-auto" alt="Hero Image"
+                            width="592" height="803" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="features">
+            <div class="container">
+                <div class="features__main row px-2">
+                    <div class="col features__item">
+                        Решение бытовых и личных вопросов
+                    </div>
+                    <div class="col features__item">
+                        Восстановление психологического равновесия
+                    </div>
+                    <div class="col features__item">
+                        Консультация 24/7 в удобном формате
+                    </div>
+                    <div class="col features__item">
+                        3 000 000+ оказанных услуг
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages overflow-hidden">
+            <div class="container">
+                <div class="row justify-content-between advantages__main">
+                    <div class="col-md-4 text-md-end">
+                        <h3 class="advantages__title">Наши<br> преимущества</h3>
+                        <ul class="advantsges__items">
+                            <li class="advantages__item-left  advantages__marker-left marker__first">
+                                Высокое качество обслуживания
+                            </li>
+                            <li class="advantages__item-left  advantages__marker-left marker__second">
+                                Широкий набор услуг
+                            </li>
+                            <li class="advantages__item-left  advantages__marker-left marker__third">
+                                Большое количество штатных специалистов
+                            </li>
+                            <li class="advantages__item-left  advantages__marker-left marker__fourth">
+                                Увеличение  эффективности работы сотрудников
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <picture>
+                            <source srcset="img/bg-advantages-xl.png" media="(min-width: 769px) and (max-width: 1400px)" />
+                            <source srcset="img/bg-advantages-sm.png" media="(max-width: 768px)" />
+                            <img src="img/bg-advantages.png" alt="Преимущества" class="advantages__img">
+                        </picture>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="advantages__title ms-md-5">Ваши<br> выгоды</h3>
+                        <ul class="advantsges__items">
+                            <li class="advantages__item-right advantages__marker-right marker__fifth">
+                                Лояльное отношение сотрудников к решениям руководства
+                            </li>
+                            <li class="advantages__item-right advantages__marker-right marker__sixth">
+                                Привлекательность компании<br> для соискателей
+                            </li>
+                            <li class="advantages__item-right advantages__marker-right marker__seventh">
+                                Профилактика выгорания
+                            </li>
+                            <li class="advantages__item-right advantages__marker-right marker__eighth">
+                                Снижение количества отгулов
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="programm">
+            <div class="container">
+                <h3 class="programm__title title">Поможем компаниям и сотрудникам лучше понимать<br> друг друга</h3>
+            </div>
+            <div class="divider rotate"></div>
+            <div class="container">
+                <div class="programm__subtitle text px-2 pb-3">
+                    Сервис корпоративной помощи "Забота"- это юридическая, налоговая, психологическая поддержка,
+                    нематериальное стимулирование коллектива и здоровый микроклимат в компании.
+                </div>
+                <div class="programm__block row px-2 flex-column-reverse flex-lg-row">
+                    <div class="col-12 col-lg-6">
+                        <p class="programm__head mb-4">
+                            Работа специалистов программы направлена на поддержку персонала компании в тех случаях,
+                            когда сотрудники:
+                        </p>
+                        <ul class="programm__items">
+                            <li class="programm__item mb-4">
+                                с трудом могут сосредоточиться на рабочих вопросах, отвлекаются от заданного курса;
+                            </li>
+                            <li class="programm__item mb-4">
+                                часто пропускают работу по болезни и под любым другим предлогом;
+                            </li>
+                            <li class="programm__item mb-4">
+                                постоянно конфликтуют и воспринимают распоряжения руководства в штыки;
+                            </li>
+                            <li class="programm__item mb-4">
+                                жалуются на низкую оплату труда и завышенные требования;
+                            </li>
+                            <li class="programm__item">
+                                предпочитают уволиться вместо того, чтобы прийти к компромиссу.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <img src="img/programm-first.png" alt="Программа" class="programm__img img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="container">
+                <div class="programm__block row px-2">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <img src="img/programm-second.png" alt="Программа" class="programm__img img-fluid">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <p class="programm__head mb-4">
+                            Для компании значимыми триггерными моментами становятся:
+                        </p>
+                        <ul class="programm__items">
+                            <li class="programm__item mb-4">
+                                низкая мотивировация коллектива;
+                            </li>
+                            <li class="programm__item mb-4">
+                                отставание от конкурентов по основным показателям;
+                            </li>
+                            <li class="programm__item mb-4">
+                                недостаточная исполнительская дисциплина;
+                            </li>
+                            <li class="programm__item mb-4">
+                                сменяемость кадров и отсутствие преемственности;
+                            </li>
+                            <li class="programm__item">
+                                нарушение конструктивного обмена мнениямии обратной связи с подчиненными.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="programm__bottom bordered text">
+                    Все эти тревожные симптомы говорят о том, что присутствует социальная напряженность. Для ее снижения
+                    и урегулирования ключевую роль сыграет новый сервис, разработанный на стыке психологии,
+                    информационных
+                    технологий и высокой экспертности профессионалов.
+                </p>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="container">
+                <h3 class="steps__title title">4 шага на пути к эффективному решению личных вопросов персонала</h3>
+            </div>
+            <div class="divider rotate"></div>
+            <div class="container">
+                <p class="steps__subtitle text">Научно доказано, что удовлетворенность и спокойствие каждого члена
+                    коллектива напрямую влияет на экономические показатели бизнеса.</p>
+                <p class="steps__head">Для увеличения продуктивности работы каждого сотрудника служит сервис «Забота»:
+                </p>
+                <div class="row steps__items flex-wrap flex-lg-nowrap justify-content-center px-3 mx-auto">
+                    <div class="col-12 col-md-5 col-lg-3 steps__item step__first">Сотрудник выбирает тематику обращения
+                        из предложенного перечня.</div>
+                    <div class="col-12 col-md-5 col-lg-3 steps__item step__second">Алгоритм предлагает специалиста по
+                        профилю и соответствующему рейтингу.</div>
+                    <div class="col-12 col-md-5 col-lg-3 steps__item step__third">Назначается удобная дата и время
+                        общения.</div>
+                    <div class="col-12 col-md-5 col-lg-3 steps__item step__fourth">Проводится профессиональная
+                        онлайн-консультация.</div>
+                </div>
+                <p class="steps__bottom bordered text">Чтобы получить поддержку, нужно оставить заявку на сайте,
+                    позвонить менеджеру или обратиться через приложение.</p>
+                <div class="text-center">
+                    <a href="#" class="btn__orange steps__btn text-decoration-none text-center">Попробовать</a>
+                </div>
+            </div>
+        </section>
+        <section class="benefit">
+            <div class="container">
+                <h3 class="benefit__title title">Профилактика выгорания, перевыполнение планов и укрепление бренда
+                    компании</h3>
+            </div>
+            <div class="divider"></div>
+            <div class="container">
+                <p class="benefit__subtitle text">Предприятия, внедрившие программу "Забота" в свою корпоративную
+                    культуру,
+                    отмечают, что сотрудники работают продуктивнее, в рабочее время занимаются только рабочими
+                    вопросами.
+                    Результаты впечатляют:
+                </p>
+                <div class="row benefit__items">
+                    <div class="col-12 col-lg-6 benefit__column">
+                        <div class="benefit__item mb-5 benefit__first">
+                            Улучшение бренда организации
+                        </div>
+                        <div class="benefit__item mb-5 benefit__second">
+                            Привлекательность компании, как конкурентное HR-преимущество для соискателей
+                        </div>
+                        <div class="benefit__item mb-5 mb-lg-0 benefit__third">
+                            Профилактика выгорания, удержание квалифицированных кадров
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 benefit__column">
+                        <div class="benefit__item mb-5 benefit__fourth">
+                            Снижение количества отгулов, пропусков по болезни
+                        </div>
+                        <div class="benefit__item mb-5 benefit__fifth">
+                            Высокий рейтинг доверия и лояльное отношение сотрудников к решениям руководства
+                        </div>
+                        <div class="benefit__item benefit__sixth">
+                            Расширение возможностей соцпакета
+                        </div>
+                    </div>
+                </div>
+                <p class="benefit__bottom bordered text">
+                    С таким набором преференций стратегические планы компании реализуются быстрее, что помогает
+                    развивать и масштабировать бизнес.
+                </p>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="row cta__block mx-auto">
+                    <div class="cta__img d-none d-md-block">
+                        <img src="img/cta.png" alt="CTA">
+                    </div>
+                    <div class="col-lg-7 cta__info">
+                        <h3 class="cta__title mb-3">Убедитесь в эффективности дистанционных консультаци
+                        </h3>
+                        <p class="cta__subtitle text">Мы работаем по всей России, без выходных</p>
+                    </div>
+                    <form action="" method="post" class="col-lg-5 cta__form d-flex flex-column gap-3">
+                        <div class="form-floating">
+                            <input type="text" id="cta-name" placeholder="Ваше имя" class="form-control">
+                            <label for="cta-name">Ваше имя</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="tel" id="cta-tel" placeholder="Ваш телефон" class="form-control">
+                            <label for="cta-tel">Ваш телефон</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" id="cta-email" placeholder="Ваша электронная почта" class="form-control">
+                            <label for="cta-email">Ваша электронная почта</label>
+                        </div>
+                        <button type="button" class="border-0 cta__btn">Обсудить условия</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <a href="/" class="logo mb-3">
+                    <img src="img/logotype.svg" alt="Логотип">
+                </a>
+                <div class="col-12 d-flex flex-wrap gap-3 pb-2">
+                    <a href="tel:+78005003568" class="footer__tel text-decoration-none">8 (800) 500-35-68</a>
+                    <p class="footer__subtitle">для консультаций по вопросам налогового вычета</p>
+                </div>
+                <ul class="nav flex-column flex-lg-row gap-2 gap-lg-5 pb-4">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 footer__link">Пользовательское
+                            соглашение</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 footer__link">Политика
+                            конфиденциальности</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 footer__link">Обработка персональных
+                            данных</a></li>
+                </ul>
+                <div class="d-flex flex-wrap gap-3 ps-2">
+                    <p class="footer__text">© ООО «Юридические Решения», 2007-2022</p>
+                    <p class="footer__text">ОГРН: 5177746279266, ИНН: 9718083320, КПП: 770701001.</p>
+                    <p class="footer__text">Адрес: 127055, г. Москва, Бутырский Вал, д. 68/70 стр. 1.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            let inputsCta = [].slice.call(
+                document.querySelectorAll('.cta__form input')),
+                buttonCta = document.querySelector('.cta__btn');
+            inputsCta.forEach(function (el) {
+                el.addEventListener('input', activateBtn, false);
+            });
+            function activateBtn() {
+                let empty = inputsCta.filter(function (el) {
+                    return el.value.trim() === '';
+                }).length;
+                buttonCta.disabled = empty !== 0;
+            }
+            activateBtn()
+        });
+    </script>
+</body>
+
+</html>
